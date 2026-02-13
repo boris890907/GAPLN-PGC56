@@ -57,7 +57,7 @@ This web application provides a user-friendly interface for making predictions w
 
 ## 🎯 Overview
 
-This repository provides pre-trained XGBoost models for predicting lymph node metastasis at:
+This repository provides trained XGBoost models for predicting lymph node metastasis at:
 - **Station 5**: Suprapyloric lymph nodes
 - **Station 6**: Infrapyloric lymph nodes
 
@@ -65,7 +65,7 @@ The models use clinical and pathological features to predict the risk of lymph n
 
 ### Key Features
 
-- ✅ **Pre-trained Models**: Ready-to-use XGBoost models for LN5 and LN6 prediction
+- ✅ **Trained Models**: Ready-to-use XGBoost models for LN5 and LN6 prediction
 - ✅ **Automated Preprocessing**: Built-in feature engineering and transformation
 - ✅ **Simple API**: Easy-to-use Python functions
 - ✅ **Reproducible**: Complete preprocessing parameters included
@@ -360,7 +360,7 @@ GAPLN-PGC56/
 ├── README.md                   # This file
 ├── LICENSE                     # MIT License
 ├── requirements.txt            # Python dependencies
-├── models/                     # Pre-trained models
+├── models/                     # Trained models
 │   ├── xgb_model_5.json       # LN5 model
 │   └── xgb_model_6.json       # LN6 model
 ├── preprocessing/              # Preprocessing parameters
