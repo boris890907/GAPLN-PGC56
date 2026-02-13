@@ -380,18 +380,16 @@ GAPLN-PGC56/
 
 ## 📝 Citation
 
-If you use these models in your research, please cite our paper:
-```bibtex
-@article{kung2024gapln,
-  title={Evolutionary Learning-Based Prediction of No. 5 and No. 6 Lymph Node Metastasis in Proximal Gastric Cancer},
-  author={Kung, Ching-Yun and Huang, Ching-Po and Huang, Kuo-Hung and Wu, Chew-Wen and Ho, Shinn-Ying and Fang, Wen-Liang},
-  journal={International Journal of Surgery},
-  note={Under review},
-  year={2026}
-}
+This work is currently under review at the International Journal of Surgery. Citation information will be provided upon publication.
+
+For now, if you use these models in your research, please reference this repository:
+```
+Kung, C.-Y., Huang, C.-P., Huang, K.-H., Wu, C.-W., Ho, S.-Y., & Fang, W.-L. (2024).
+GAPLN-PGC56: Gastric Cancer Lymph Node Metastasis Prediction Models.
+GitHub repository. https://github.com/boris890907/GAPLN-PGC56
 ```
 
-**Note**: This manuscript is currently under review at the International Journal of Surgery. Please check back for updated citation information once the paper is published.
+**Note**: Please check back for updated citation information once the manuscript is published.
 
 ---
 
