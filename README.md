@@ -75,7 +75,7 @@ The models use clinical and pathological features to predict the risk of lymph n
 
 ## 🚀 Features
 
-- **Two prediction models**: Station 5 (LN5) and Station 6 (LN6)
+- **Two prediction models**: Station 5 (GAPLN-PGC5) and Station 6 (GAPLN-PGC6)
 - **Automated feature engineering**: Derived features are automatically computed
 - **Box-Cox transformation**: Model-specific transformations applied automatically
 - **Standardization**: Z-score normalization using training set statistics
