@@ -384,7 +384,7 @@ This work is currently under review at the International Journal of Surgery. Cit
 
 For now, if you use these models in your research, please reference this repository:
 ```
-Kung, C.-Y., Huang, C.-P., Huang, K.-H., Wu, C.-W., Ho, S.-Y., & Fang, W.-L. (2024).
+Kung, C.-Y., Huang, C.-P., Huang, K.-H., Wu, C.-W., Ho, S.-Y., & Fang, W.-L. (2026).
 GAPLN-PGC:No. 5 and No. 6 Gastric Cancer Lymph Node Metastasis Prediction Models.
 GitHub repository. https://github.com/boris890907/GAPLN-PGC56
 ```
