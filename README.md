@@ -67,9 +67,8 @@ The models use clinical and pathological features to predict the risk of lymph n
 
 - ✅ **Trained Models**: Ready-to-use XGBoost models for LN5 and LN6 prediction
 - ✅ **Automated Preprocessing**: Built-in feature engineering and transformation
-- ✅ **Simple API**: Easy-to-use Python functions
 - ✅ **Reproducible**: Complete preprocessing parameters included
-- ✅ **No Imputation Required**: Works with complete patient data
+- ✅ **No Imputation Function**: Works need to contain complete patient data
 
 ---
 
