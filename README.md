@@ -481,7 +481,6 @@ For questions, issues, or collaboration inquiries:
 This research was conducted at:
 - Taipei Veterans General Hospital
 - National Yang Ming Chiao Tung University
-- Kaohsiung Medical University
 
 We thank all the patients who participated in this study and the clinical staff who contributed to data collection.
 
