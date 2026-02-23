@@ -1,4 +1,4 @@
-# GAPLN-PGC56: Gastric Cancer Lymph Node Metastasis Prediction Models
+# GAPLN-PGC:No. 5 and No. 6 Gastric Cancer Lymph Node Metastasis Prediction Models
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -57,7 +57,7 @@ This web application provides a user-friendly interface for making predictions w
 
 ## 🎯 Overview
 
-This repository provides pre-trained XGBoost models for predicting lymph node metastasis at:
+This repository provides trained XGBoost models for predicting lymph node metastasis at:
 - **Station 5**: Suprapyloric lymph nodes
 - **Station 6**: Infrapyloric lymph nodes
 
@@ -65,17 +65,16 @@ The models use clinical and pathological features to predict the risk of lymph n
 
 ### Key Features
 
-- ✅ **Pre-trained Models**: Ready-to-use XGBoost models for LN5 and LN6 prediction
+- ✅ **Trained Models**: Ready-to-use XGBoost models for LN5 and LN6 prediction
 - ✅ **Automated Preprocessing**: Built-in feature engineering and transformation
-- ✅ **Simple API**: Easy-to-use Python functions
 - ✅ **Reproducible**: Complete preprocessing parameters included
-- ✅ **No Imputation Required**: Works with complete patient data
+- ✅ **No Imputation Function**: Works need to contain complete patient data
 
 ---
 
 ## 🚀 Features
 
-- **Two prediction models**: Station 5 (LN5) and Station 6 (LN6)
+- **Two prediction models**: Station 5 (GAPLN-PGC5) and Station 6 (GAPLN-PGC6)
 - **Automated feature engineering**: Derived features are automatically computed
 - **Box-Cox transformation**: Model-specific transformations applied automatically
 - **Standardization**: Z-score normalization using training set statistics
@@ -350,7 +349,7 @@ Each prediction returns:
 ```
 
 - `prediction`: 0 = No metastasis predicted, 1 = Metastasis predicted
-- `risk_score`: Continuous probability score (higher = higher risk)
+- `risk_score`: Quantifiable risk score (higher = higher risk)
 
 ---
 
@@ -360,7 +359,7 @@ GAPLN-PGC56/
 ├── README.md                   # This file
 ├── LICENSE                     # MIT License
 ├── requirements.txt            # Python dependencies
-├── models/                     # Pre-trained models
+├── models/                     # Trained models
 │   ├── xgb_model_5.json       # LN5 model
 │   └── xgb_model_6.json       # LN6 model
 ├── preprocessing/              # Preprocessing parameters
@@ -380,18 +379,16 @@ GAPLN-PGC56/
 
 ## 📝 Citation
 
-If you use these models in your research, please cite our paper:
-```bibtex
-@article{kung2024gapln,
-  title={Evolutionary Learning-Based Prediction of No. 5 and No. 6 Lymph Node Metastasis in Proximal Gastric Cancer},
-  author={Kung, Ching-Yun and Huang, Ching-Po and Huang, Kuo-Hung and Wu, Chew-Wen and Ho, Shinn-Ying and Fang, Wen-Liang},
-  journal={International Journal of Surgery},
-  note={Under review},
-  year={2026}
-}
+This work is currently under review at the International Journal of Surgery. Citation information will be provided upon publication.
+
+For now, if you use these models in your research, please reference this repository:
+```
+Kung, C.-Y., Huang, C.-P., Huang, K.-H., Wu, C.-W., Ho, S.-Y., & Fang, W.-L. (2026).
+GAPLN-PGC:No. 5 and No. 6 Gastric Cancer Lymph Node Metastasis Prediction Models.
+GitHub repository. https://github.com/boris890907/GAPLN-PGC56
 ```
 
-**Note**: This manuscript is currently under review at the International Journal of Surgery. Please check back for updated citation information once the paper is published.
+**Note**: Please check back for updated citation information once the manuscript is published.
 
 ---
 
@@ -484,7 +481,6 @@ For questions, issues, or collaboration inquiries:
 This research was conducted at:
 - Taipei Veterans General Hospital
 - National Yang Ming Chiao Tung University
-- Kaohsiung Medical University
 
 We thank all the patients who participated in this study and the clinical staff who contributed to data collection.
 
