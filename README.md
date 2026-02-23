@@ -349,7 +349,7 @@ Each prediction returns:
 ```
 
 - `prediction`: 0 = No metastasis predicted, 1 = Metastasis predicted
-- `risk_score`: Continuous probability score (higher = higher risk)
+- `risk_score`: Quantifiable risk score (higher = higher risk)
 
 ---
 
