@@ -12,22 +12,6 @@ This repository contains the reproducible code for the research presented in:
 
 > **Evolutionary Learning-Based Prediction of No. 5 and No. 6 Lymph Node Metastasis in Proximal Gastric Cancer**  
 > *Submitted to International Journal of Surgery (under review)*
-> 
-> **Authors:**  
-> Ching-Yun Kung<sup>1,2†</sup>, Ching-Po Huang<sup>3†</sup>, Kuo-Hung Huang<sup>1,2</sup>, Chew-Wen Wu<sup>1,2</sup>, Shinn-Ying Ho<sup>3,4,5,6*</sup>, Wen-Liang Fang<sup>1,2*</sup>
->
-> <sup>1</sup>Division of General Surgery, Department of Surgery, Taipei Veterans General Hospital, Taipei, Taiwan  
-> <sup>2</sup>School of Medicine, National Yang Ming Chiao Tung University, Taipei, Taiwan  
-> <sup>3</sup>Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, Hsinchu, Taiwan  
-> <sup>4</sup>Department of Biological Science and Technology, National Yang Ming Chiao Tung University, Hsinchu, Taiwan  
-> <sup>5</sup>Center for Intelligent Drug Systems and Smart Bio-devices (IDS2B), National Yang Ming Chiao Tung University, Hsinchu, Taiwan  
-> <sup>6</sup>College of Health Sciences, Kaohsiung Medical University, Kaohsiung, Taiwan  
-> <sup>†</sup>Both authors contributed equally to this work  
-> <sup>*</sup>Co-Corresponding authors
-
-**Corresponding Authors:**
-- Shinn-Ying Ho, PhD (syho@nycu.edu.tw)
-- Wen-Liang Fang, MD, PhD (wlfang@vghtpe.gov.tw)
 
 ## 🌐 Online Tool
 
@@ -375,23 +359,6 @@ GAPLN-PGC56/
     └── sample_input.csv       # Sample patient data
 ```
 
----
-
-## 📝 Citation
-
-This work is currently under review at the International Journal of Surgery. Citation information will be provided upon publication.
-
-For now, if you use these models in your research, please reference this repository:
-```
-Kung, C.-Y., Huang, C.-P., Huang, K.-H., Wu, C.-W., Ho, S.-Y., & Fang, W.-L. (2026).
-GAPLN-PGC:No. 5 and No. 6 Gastric Cancer Lymph Node Metastasis Prediction Models.
-GitHub repository. https://github.com/boris890907/GAPLN-PGC56
-```
-
-**Note**: Please check back for updated citation information once the manuscript is published.
-
----
-
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -453,34 +420,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'models/xgb_model_5.json
 
 **Solution**: Verify that the `models/` directory contains the model files. The directory structure should match the [Repository Structure](#repository-structure).
 
----
-
-## 📧 Contact
-
-For questions, issues, or collaboration inquiries:
-
-**Corresponding Authors:**
-- **Shinn-Ying Ho, PhD**  
-  Institute of Bioinformatics and Systems Biology  
-  National Yang Ming Chiao Tung University  
-  Email: syho@nycu.edu.tw
-
-- **Wen-Liang Fang, MD, PhD**  
-  Division of General Surgery, Department of Surgery  
-  Taipei Veterans General Hospital  
-  Email: wlfang@vghtpe.gov.tw
-
-**Repository Issues**: https://github.com/boris890907/GAPLN-PGC56/issues
-
-**Web Tool**: https://gapln-pgc.vercel.app/
-
----
-
 ## 🙏 Acknowledgments
-
-This research was conducted at:
-- Taipei Veterans General Hospital
-- National Yang Ming Chiao Tung University
 
 We thank all the patients who participated in this study and the clinical staff who contributed to data collection.
 
